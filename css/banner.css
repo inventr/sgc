@@ -1,6 +1,17 @@
 .banner{
   position: relative;
   display: inline-block;
+
+
+    background-image: url("../img/banercosta.jpg");
+    /* Set a specific height */
+    height: 600px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .banner:before{
@@ -24,6 +35,39 @@
  /* W3C */
  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
  /* IE6-9 */
+}
+
+
+
+.banner2{
+  position: relative;
+  display: inline-block;
+  margin-top: 135px;
+
+
+    background-image: url("../img/artesuperior.png");
+    /* Set a specific height */
+    height: 450px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner2:before{
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #236072;
+  opacity: .8;
 }
 
 #navigation{
@@ -90,6 +134,7 @@
 
   .texto-section-2{
     font-size: 15px!important;
+    line-height: 16px!important;
   }
   .st1{
     font-size: 17px!important;
@@ -119,7 +164,9 @@
  opacity: 0.7;
  line-height: 1.3;
  color: #5c5b5b;
- font-size: 20px;
+ font-size: 17px;
+ font-weight: lighter;
+ line-height: 28px;
 }
 
 .section-2{
@@ -127,20 +174,39 @@
   position: relative;
   display: inline-block;
   z-index: 1;
+
+    background-image: url("../img/1440x662.jpg");
+    /* Set a specific height */
+    height: 600px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .section-2:before{
   content: "";
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #236072;
-  opacity: .8;
+ top: 0;
+ left: 0;
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+ /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(49%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+ /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+ /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+ /* Opera 11.10+ */
+ background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+ /* IE10+ */
+ background: linear-gradient(to right, #006278 0%, rgba(255, 255, 255, 0) 49%, #006278 100%);
+ /* W3C */
+ filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+ /* IE6-9 */
 }
 
 .img-section-2{
@@ -153,7 +219,7 @@
   text-align: center;
   left:16%;
   color: #ffffff;
-  width: 71%;
+  width: 61%;
 }
 
 .nombre{
@@ -176,17 +242,18 @@
 
 .texto-section-2{
   line-height: 1.2;
-  font-size: 40px;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 34px
 }
 
 .st1{
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 300;
-  line-height: 0.86;
 }
 
 .st2{
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .title-services{
@@ -194,11 +261,13 @@
   color: #303030;
   font-size: 75px;
   margin-bottom:  66px;
+
 }
 
 .card{
   box-shadow: 0 0 4px 0 rgba(119, 119, 119, 0.5);
   margin-bottom: 95px;
+  background: #fff;
 }
 
 .img-card{
@@ -211,8 +280,8 @@
   margin-top: 28px;
   line-height: 1.5;
   color: #6d7274;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: lighter;
   max-height: 240px;
   min-height: 240px;
   height: 240px;
@@ -249,6 +318,8 @@ margin-right: 10px;
   background-color: #fbfbfb;
   border: solid 1px #e4e4e4;
   height: 421px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .avatar{
@@ -265,10 +336,13 @@ margin-right: 10px;
  color: #ffffff;
  font-size: 20px;
  font-weight: 300;
-  width: 311px;
+  width: auto;
   height: 31px;
   background-color: #2f6b7a;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .avatar-text{

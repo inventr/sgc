@@ -67,10 +67,17 @@ $(document).ready(function(){
     margin: 56,
     center:true,
     nav : true,
+    loop:true,
     dots: true
   });
+
+
 
   $(".owl-prev").text("");
   $(".owl-next").text("");
 
+  $(".owl-next").click();
+
 });
+
+
