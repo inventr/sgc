@@ -3,7 +3,7 @@
   display: inline-block;
 
 
-    background-image: url("../img/banercosta.jpg");
+    background-image: url("../img/a5.png");
     /* Set a specific height */
     height: 600px; 
     /* Create the parallax scrolling effect */
@@ -77,10 +77,20 @@
 .banner-box{
   display: block;
   position: absolute;
-  width: 46%;
-  top: 70%;
+  width: 350px;
+  top: 50%;
   z-index: 10;
-  margin-left: 94px;
+  padding-left: 40px;
+  
+}
+
+.banner-box h1{
+  text-align: center;
+  letter-spacing: -0.6px;
+  line-height: 1.05;
+  color: #ffffff;
+  font-size: 500%;
+  font-weight: 800;
 }
 
 .text{
@@ -223,7 +233,7 @@
 }
 
 .nombre{
- font-size: 50px;
+ font-size: 45px;
  font-weight: 800;
 }
 
@@ -242,7 +252,7 @@
 
 .texto-section-2{
   line-height: 1.2;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: lighter;
   line-height: 34px
 }
@@ -259,14 +269,14 @@
 .title-services{
   line-height: 1.07;
   color: #303030;
-  font-size: 75px;
+  font-size: 60px;
   margin-bottom:  66px;
 
 }
 
 .card{
   box-shadow: 0 0 4px 0 rgba(119, 119, 119, 0.5);
-  margin-bottom: 95px;
+  margin-bottom: 85px;
   background: #fff;
   transition: all 0.5s ease;
 
@@ -298,7 +308,7 @@
 .box-over-card{
   position: absolute;
   color: #2f6b7a;
-  font-size: 40px;
+  font-size: 35px;
   top: 2px;
   left: 26px;
   opacity: 0.9;
@@ -328,11 +338,16 @@ cursor: pointer;
 .box-our{
   background-color: #fbfbfb;
   border: solid 1px #e4e4e4;
-  height: 421px;
+  height: 360px;
   margin-top: 10px;
   text-align: center;
 }
 
+.box-our h2{
+  height: 80px;
+  color: #3B3B3B;
+  padding: 10px;
+}
 .avatar{
   margin-top: 31px;
   margin-bottom: 12px;
@@ -345,20 +360,22 @@ cursor: pointer;
 
 .avatar-cargo{
  color: #ffffff;
- font-size: 20px;
+ font-size: 16px;
  font-weight: 300;
   width: auto;
-  height: 31px;
-  background-color: #2f6b7a;
+  height: 58px!important;
+  background-color: #267E8D;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding: 10px;
 }
 
 .avatar-text{
   margin-top: 12px;
-  color: #3b3a3a;
-  font-size: 13px;
+  color: #9B9B9B;
+  font-size: 15px;
   font-weight: 300;
+  padding: 10px;
 }
