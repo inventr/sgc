@@ -5,7 +5,7 @@
 
     background-image: url("../img/a5.png");
     /* Set a specific height */
-    height: 600px; 
+    height: 600px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -47,7 +47,7 @@
 
     background-image: url("../img/artesuperior.png");
     /* Set a specific height */
-    height: 450px; 
+    height: 450px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -81,7 +81,7 @@
   top: 50%;
   z-index: 10;
   padding-left: 40px;
-  
+
 }
 
 .banner-box h1{
@@ -187,7 +187,7 @@
 
     background-image: url("../img/1440x662.jpg");
     /* Set a specific height */
-    height: 600px; 
+    height: 600px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -284,7 +284,7 @@
 
 .card:hover{
   background: #E9E9E9;
-  
+
 }
 
 

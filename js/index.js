@@ -78,6 +78,25 @@ $(document).ready(function(){
 
   $(".owl-next").click();
 
+	console.log($(".active.center").text());
+	var i = 0;
+	setInterval(function(){
+			var index = parseInt($(".active.center").find("img").data("index"));
+			var x = $(".active.center").find("img");
+	    var img = $(".active.center").find("img").data("img");
+			i = (index==img.length) ? 0 : index;
+			console.log("before: " + i);
+	    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+	    $(x).removeClass("animated fadeOut zoomIn");
+	    $(x).addClass("animated fadeOut").one(animationEnd, function() {
+	      $(this).attr("src",img[i]);
+				i++;
+				console.log("after: " + i);
+				$(".active.center").find("img").data("index",i);
+	      $(this).removeClass('fadeOut').addClass("zoomIn").one(animationEnd, function() {
+	        $(this).removeClass('animated zoomIn');
+	      });
+	    });
+	},5000)
+
 });
-
-

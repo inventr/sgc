@@ -157,12 +157,12 @@ nav{
   left: 10px;
 }
 
-.caja1{background-color: #43929e;}
-.caja2{background-color: #25818f;}
-.caja3{background-color: #136774;}
-.caja4{background-color: #095460;}
-.caja5{background-color: #03444e;}
-.caja6{background-color: #00353f;}
+.caja1{background-color: #43929e;background-image: url("../img/1.png");}
+.caja2{background-color: #25818f;background-image: url("../img/2.png");}
+.caja3{background-color: #136774;background-image: url("../img/3.png");}
+.caja4{background-color: #095460;background-image: url("../img/4.png");}
+.caja5{background-color: #03444e;background-image: url("../img/5.png");}
+.caja6{background-color: #00353f;background-image: url("../img/6.png");}
 
 #ul {
   list-style: none;
